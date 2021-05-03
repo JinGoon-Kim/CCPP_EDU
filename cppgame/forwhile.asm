@@ -21,6 +21,21 @@ LABEL_LOOP:
     
     jne LABEL_LOOP
     
+    ; 연습 문제) 1에서 100까지의 합을 구하는 프로그램 1+2+3+4+...+100 = ?
+    
+    mov eax, 100
+    xor ebx, ebx ; mov ebx, 0 ebx: 결과물
+    mov ecx, 0 ; = xor ecx, ecx
+    
+LABEL_CAL:
+    inc ecx ; add ecx, 1과 동일
+    add ebx, ecx
+    cmp ecx, eax
+    
+    jne LABEL_CAL
+    
+    PRINT_DEC 4, ebx
+    NEWLINE
     
     xor rax, rax
     ret
