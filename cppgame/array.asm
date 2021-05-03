@@ -16,14 +16,23 @@ CMAIN:
     ; 연습문제 : a배열의 모든 데이터 출력해보기
     xor ecx, ecx
     
-LABEL_CAL:
-    PRINT_HEX 1, [a + ecx]
-    NEWLINE
+LABEL_A:
+    ; PRINT_HEX 1, [a + ecx]
+    ; NEWLINE
     inc ecx ; add ecx, 1
     
     cmp ecx, 5
-    jne LABEL_CAL
+    jne LABEL_A
 
+    xor ecx, ecx
+LABEL_B:
+    PRINT_HEX 2, [b+ecx*2]
+    NEWLINE
+    inc ecx
+    cmp ecx, 5
+    
+    jne LABEL_B
+    ; 0x00 0x01 -> 0x0100
     xor rax, rax
     ret
 
