@@ -21,7 +21,7 @@
   <PropertyGroup Label="Globals">
     <VCProjectVersion>16.0</VCProjectVersion>
     <Keyword>Win32Proj</Keyword>
-    <ProjectGuid>{f84bd160-3152-444a-a71d-3660fba91c07}</ProjectGuid>
+    <ProjectGuid>{e621f200-1aee-45a9-acd5-3a7c01350b60}</ProjectGuid>
     <RootNamespace>CPPStudy</RootNamespace>
     <WindowsTargetPlatformVersion>10.0</WindowsTargetPlatformVersion>
   </PropertyGroup>
