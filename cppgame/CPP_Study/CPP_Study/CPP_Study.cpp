@@ -45,9 +45,15 @@ unsigned __int64 ud; // 8바이트 (long long) (어마어마하게 크다)
 
 int main()
 {
+    // 정수 오버플로우
     b = 32767;
     b = b + 1;
     cout << b << endl; // -32,768
+
+    // 정수 언더플로우
+    ub = 0;
+    ub = ub - 1;
+    cout << ub << endl;
 
     cout << "체력이 " << hp << " 남았습니다" << endl;
 }
