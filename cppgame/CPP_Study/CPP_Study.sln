@@ -17,6 +17,8 @@ Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "CPP_Study05", "CPP_Study05\
 EndProject
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "CPP_Study06", "CPP_Study06\CPP_Study06.vcxproj", "{67D34171-0A7E-43E6-9579-E86659C135BB}"
 EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "CPP_Study07", "CPP_Study07\CPP_Study07.vcxproj", "{1FECA07A-D689-44E7-8726-280CA5C745AD}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|x64 = Debug|x64
@@ -81,6 +83,14 @@ Global
 		{67D34171-0A7E-43E6-9579-E86659C135BB}.Release|x64.Build.0 = Release|x64
 		{67D34171-0A7E-43E6-9579-E86659C135BB}.Release|x86.ActiveCfg = Release|Win32
 		{67D34171-0A7E-43E6-9579-E86659C135BB}.Release|x86.Build.0 = Release|Win32
+		{1FECA07A-D689-44E7-8726-280CA5C745AD}.Debug|x64.ActiveCfg = Debug|x64
+		{1FECA07A-D689-44E7-8726-280CA5C745AD}.Debug|x64.Build.0 = Debug|x64
+		{1FECA07A-D689-44E7-8726-280CA5C745AD}.Debug|x86.ActiveCfg = Debug|Win32
+		{1FECA07A-D689-44E7-8726-280CA5C745AD}.Debug|x86.Build.0 = Debug|Win32
+		{1FECA07A-D689-44E7-8726-280CA5C745AD}.Release|x64.ActiveCfg = Release|x64
+		{1FECA07A-D689-44E7-8726-280CA5C745AD}.Release|x64.Build.0 = Release|x64
+		{1FECA07A-D689-44E7-8726-280CA5C745AD}.Release|x86.ActiveCfg = Release|Win32
+		{1FECA07A-D689-44E7-8726-280CA5C745AD}.Release|x86.Build.0 = Release|Win32
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
