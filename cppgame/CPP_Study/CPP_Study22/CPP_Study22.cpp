@@ -146,7 +146,7 @@ int main()
 
     // Bonus) 참조로 사용하던걸 포인터로 넘겨주려면?
     // pointer[ 주소 ]    reference, info[ 데이터 ]
-    PrintInfo(reference);
+    PrintInfo(&reference);
 
     return 0;
 }
