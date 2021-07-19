@@ -41,7 +41,7 @@ void PrintInfoByCopy(StatInfo info)
 
  // 2) 주소 전달 방식
 // [매개변수][RET][지역변수(info)]  [매개변수(info(100, 8, 5))][RET][지역변수(info)]
-void PrintInfoByPtr(StatInfo* info)
+void PrintInfo(StatInfo* info)
 {
     cout << "---------------------" << endl;
     cout << "HP : " << info->hp << endl;
@@ -60,7 +60,7 @@ void PrintInfoByPtr(StatInfo* info)
 // 주소 전달처럼 주소값을 이용해 진퉁을 건드리는!
 // 일석이조의 방식
 
-void PrintInfoByRef(StatInfo& info)
+void PrintInfo(StatInfo& info)
 {
     cout << "---------------------" << endl;
     cout << "HP : " << info.hp << endl;
@@ -103,8 +103,8 @@ int main()
     CreateMonster(&info);
 
     PrintInfoByCopy(info);
-    PrintInfoByPtr(&info);
-    PrintInfoByRef(info);
+    PrintInfo(&info);
+    PrintInfo(info);
 
     return 0;
 }
